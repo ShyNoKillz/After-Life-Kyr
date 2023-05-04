@@ -1,0 +1,469 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+  font-family: avenir next condensed, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/*Header Section styles*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #13d1ce;
+  padding: 10px 30px;
+}
+
+header h1 {
+  font-size: 70px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header h2 {
+  font-size: 70px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+/* Navigation section styles */
+#navigation {
+width: 100%;
+background-color: #2e2e2e;
+height: 60px;
+display: flex;
+align-items: center;
+}
+
+nav {
+flex-grow: 1;
+}
+
+nav ul {
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 100%;
+margin: 0;
+padding: 0px 30px;
+overflow: hidden;
+}
+
+nav ul li {
+margin-right: 20px;
+}
+
+nav ul li:last-of-type {
+margin-right: 0;
+}
+
+nav ul li a {
+display: block;
+height: 100%;
+padding: 0 20px;
+line-height: 60px;
+border-top: 2px solid transparent;
+transition: all 0.3s ease-in-out;
+color: #fff;
+}
+
+nav ul li a:hover {
+border-top-color: #fff;
+color: #fff;
+}
+
+/* INDEX Hero section styles */
+#hero {
+position: relative;
+overflow: hidden;
+display: flex;
+height: 600px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: #fff;
+text-align: center;
+}
+
+/* INDEX About section styles */
+#about {
+padding: 20px;
+}
+
+#about h2 {
+color: #13d1ce;
+text-transform: uppercase;
+text-align: left;
+font-size: 50px;
+padding: 10px;
+margin-left: 40px;
+}
+
+#about p {
+font-family: courier new;
+font-size: 18px;
+line-height: 1.4;
+padding: 0px 30px;
+margin-right: 200px;
+margin-bottom: 20px;
+text-align: justify;
+}
+
+/* INDEX Genres section styles */
+#genres {
+background-color: #f4f4f4;
+padding: 20px;
+}
+
+#genres h2 {
+  color: #dec08a;
+text-transform: uppercase;
+text-align: right;
+font-size: 50px;
+padding: 10px;
+margin-right: 40px;
+}
+
+#genres ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: right;
+align-items: center;
+padding: 0px 30px;
+margin-right: 39px;
+}
+
+#genres li {
+margin-right: 30px;
+margin-bottom: 30px;
+}
+
+#genres li:last-of-type {
+margin-right: 0;
+}
+
+#genres li:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#genres a {
+font-family: courier new;
+display: inline-block;
+padding: 10px 20px;
+background-color: #2e2e2e;
+color: #fff;
+border-radius: 5px;
+}
+
+/* INDEX Softwares section styles */
+#softwares {
+padding: 20px;
+text-align: center;
+}
+
+#softwares h2 {
+color: #8adba8;
+text-transform: uppercase;
+text-align: center;
+font-size: 50px;
+padding: 10px;
+margin-right: 210px;
+}
+
+#softwares ul {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+#softwares li {
+margin-right: 20px;
+}
+
+#softwares li:last-of-type {
+margin-right: 0;
+}
+
+#softwares img {
+max-width: 100%;
+height: auto;
+margin-bottom: 10px;
+}
+
+#softwares img:hover {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+/* PHOTOSHOP Environment section styles */
+#environment {
+position: relative;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: #fff;
+text-align: center;
+}
+
+#environment img:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* PHOTOSHOP Image Description section styles */
+#imagedescription {
+background-color: #1b2130;
+padding: 20px;
+}
+
+#imagedescription h2 {
+color: #4a77e0;
+text-transform: uppercase;
+text-align: left;
+font-size: 50px;
+padding: 10px;
+margin-left: 40px;
+}
+
+#imagedescription p {
+font-family: courier new;
+color: #fff;
+font-size: 18px;
+line-height: 1.4;
+padding: 0px 30px;
+margin-right: 200px;
+margin-bottom: 20px;
+text-align: justify;
+}
+
+/* ILLUSTRATOR Portrait section styles */
+#portrait {
+position: relative;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: #fff;
+text-align: center;
+}
+
+#portrait img:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* ILLUSTRATOR Vector Description section styles */
+#vectordescription {
+background-color: #3b3345;
+padding: 20px;
+}
+
+#vectordescription h2 {
+color: #7640bd;
+text-transform: uppercase;
+text-align: left;
+font-size: 50px;
+padding: 10px;
+margin-left: 40px;
+}
+
+#vectordescription p {
+font-family: courier new;
+color: #fff;
+font-size: 18px;
+line-height: 1.4;
+padding: 0px 30px;
+margin-right: 200px;
+margin-bottom: 20px;
+text-align: justify;
+}
+
+/* AUDACITY Audio Description section styles */
+#audiodescription {
+background-color: #3b2521;
+padding: 20px;
+}
+
+#audiodescription h2 {
+color: #ed4726;
+text-transform: uppercase;
+text-align: left;
+font-size: 50px;
+padding: 10px;
+margin-left: 40px;
+}
+
+#audiodescription p {
+font-family: courier new;
+color: #fff;
+font-size: 18px;
+line-height: 1.4;
+padding: 0px 30px;
+margin-right: 200px;
+margin-bottom: 20px;
+text-align: justify;
+}
+
+/* AFTER EFFECTS Animation Description section styles */
+#animationdescription {
+background-color: #1e2b2b;
+padding: 20px;
+}
+
+#animationdescription h2 {
+color: #30dde3;
+text-transform: uppercase;
+text-align: left;
+font-size: 50px;
+padding: 10px;
+margin-left: 40px;
+}
+
+#animationdescription p {
+font-family: courier new;
+color: #fff;
+font-size: 18px;
+line-height: 1.4;
+padding: 0px 30px;
+margin-right: 200px;
+margin-bottom: 20px;
+text-align: justify;
+}
+
+/* JAVASCRIPT Power section styles */
+#power {
+background-color: #e3e3e3;
+position: relative;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+}
+
+/* JAVASCRIPT Power Description section styles */
+#powerdescription {
+background-color: #1b211a;
+padding: 20px;
+}
+
+#powerdescription h2 {
+color: #75f06c;
+text-transform: uppercase;
+text-align: left;
+font-size: 50px;
+padding: 10px;
+margin-left: 40px;
+}
+
+#powerdescription p {
+font-family: courier new;
+color: #fff;
+font-size: 18px;
+line-height: 1.4;
+padding: 0px 30px;
+margin-right: 200px;
+margin-bottom: 20px;
+text-align: justify;
+}
+
+/* STATEMENT section styles */
+
+#statementdescription {
+background-color: #1b2130;
+padding: 20px;
+}
+
+#statementdescription h2 {
+color: #8adba8;
+text-transform: uppercase;
+text-align: center;
+font-size: 50px;
+padding: 10px;
+}
+
+#statementdescription p {
+font-family: courier new;
+color: #fff;
+font-size: 18px;
+line-height: 1.4;
+padding: 0px 30px;
+margin-bottom: 20px;
+text-align: justify;
+}
+
+/* CREDITS section styles */
+#credits {
+padding: 20px;
+text-align: center;
+}
+
+#credits h2 {
+color: #8adba8;
+text-transform: uppercase;
+text-align: center;
+font-size: 50px;
+padding: 10px;
+}
+
+#credits ul {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+#credits li {
+margin-right: 20px;
+}
+
+#credits li:last-of-type {
+margin-right: 0;
+}
+
+#credits img {
+max-width: 100%;
+height: auto;
+margin-bottom: 10px;
+}
+
+#credits a:hover {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+#credits p {
+font-family: courier new;
+color: #fff;
+font-size: 18px;
+line-height: 1.4;
+padding: 0px 30px;
+margin-right: 200px;
+margin-bottom: 20px;
+text-align: justify;
+}
+
+/* INDEX Footer styles */
+footer {
+background-color: #333;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
